@@ -14,7 +14,7 @@
   }
 
   function createCustomer(img, name, text) {
-    let Img = `./img/${img}.jpg`;
+    let Img = `${img}.jpg`;
     let customer = new Customer(Img, name, text);
 
     customers.push(customer);
